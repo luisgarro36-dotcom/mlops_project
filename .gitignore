@@ -1,11 +1,12 @@
-# Ignora el entorno virtual (la causa del error de 100MB)
+# Ignora el entorno virtual (SOLUCION DEL ERROR DE 100MB)
 .venv/
 venv/
 
 # Archivos generados por MLOps y caches
 .dvc/
 mlruns/
-dvc.lock
+
+# <--- ¡ASEGÚRATE DE QUE LA LÍNEA dvc.lock NO ESTÉ AQUÍ!
 
 # Datos y modelos que DVC debe manejar (no Git)
 data/
