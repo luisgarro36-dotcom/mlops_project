@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Luisinho/Documents/mlops_project/mlruns/819273519439312196/45a767d45fcd4cd7a3bd3f5cb168ae0e/artifacts
+end_time: 1762019150060
+entry_point_name: ''
+experiment_id: '819273519439312196'
+lifecycle_stage: active
+run_id: 45a767d45fcd4cd7a3bd3f5cb168ae0e
+run_name: psi_drift_evaluation
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762019149742
+status: 3
+tags: []
+user_id: Luisinho

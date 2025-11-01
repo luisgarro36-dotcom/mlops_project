@@ -1,0 +1,23 @@
+cmd: python src/monitor_data_drift.py
+deps:
+- path: data/processed/test.csv
+  hash: md5
+  md5: bf220447d140b2f504579d0425d36dbb
+  size: 8415394
+- path: data/processed/train.csv
+  hash: md5
+  md5: 49ee3b83392ac822737d2e3cdf4b64ea
+  size: 19613737
+- path: data/processed/val.csv
+  hash: md5
+  md5: 520a1d83902349f6b061b3b50196a060
+  size: 10623046
+- path: src/monitor_data_drift.py
+  hash: md5
+  md5: daf8eed04dc66e08bf2160348519679a
+  size: 2230
+outs:
+- path: data/processed/psi_results.csv
+  hash: md5
+  md5: e012701bb6ff9ef1a39204478ecb8109
+  size: 2563

@@ -1,0 +1,6 @@
+artifact_location: file:///C:/Users/Luisinho/Documents/mlops_project/mlruns/855352188348669207
+creation_time: 1762019139550
+experiment_id: '855352188348669207'
+last_update_time: 1762019139550
+lifecycle_stage: active
+name: ventas_xgboost_experiment
