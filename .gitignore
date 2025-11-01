@@ -1,0 +1,16 @@
+# Ignora el entorno virtual (la causa del error de 100MB)
+.venv/
+venv/
+
+# Archivos generados por MLOps y caches
+.dvc/
+mlruns/
+dvc.lock
+
+# Datos y modelos que DVC debe manejar (no Git)
+data/
+models/
+
+# Caches de Python
+__pycache__/
+*.pyc
